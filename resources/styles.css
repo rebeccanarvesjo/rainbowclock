@@ -1,0 +1,53 @@
+.background {
+  viewport-fill: black;
+}
+
+#timeLabel {
+  font-size: 116;
+}
+
+.text-label {
+  font-size: 88;
+  font-family: Tungsten;
+  text-length: 32;
+  text-anchor: start;
+  y: 25%+25;
+  fill: white;
+}
+
+.-small {
+  font-size: 30;
+  text-length: 32;
+}
+
+.-smaller {
+  font-size: 24;
+  text-length: 32;
+  fill: #a0a0a0;
+  x: 5;
+  y: 125;
+}
+
+#stepsIcon {
+  fill: white;
+  x: -6;
+  y: -17;
+}
+
+#distIcon {
+  fill: white;
+  x: -6;
+  y: -17;
+}
+
+#calsIcon {
+  fill: white;
+  x: -6;
+  y: -17;
+}
+
+.statsText {
+  font-family: Fabrikat;
+  font-size: 22;
+  text-anchor: end;
+}

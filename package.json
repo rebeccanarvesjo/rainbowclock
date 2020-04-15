@@ -1,0 +1,24 @@
+{
+  "fitbit": {
+    "appUUID": "32da2cbf-2b3d-4dc0-b5d1-eac2f0bbc72d",
+    "appType": "clockface",
+    "appDisplayName": "ProjectRainbow",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "ProjectRainbow"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

@@ -1,0 +1,97 @@
+<svg class="background">
+  <svg>
+    <text id="timeLabel" class="text-label" />
+    <text id="dateLabel" class="text label -smaller" />
+  </svg>
+  
+  <svg x="100%-20">
+    <svg y="30">
+      <text id="stepsText" x="-20" y="1" class="text-label -smaller statsText" />
+      <svg >
+        <circle id="firstIconCirc" cx="6" cy="-6" r="16" fill="fb-black" />
+        <image id="stepsIcon" class="stats-icon" href="stat_steps_solid_24px.png" width="18" height="18" />
+        <arc x="-12" y="-24" width="31" height="31" fill="fb-magenta" 
+          arc-width="3" start-angle="-90" sweep-angle="360" />
+      </svg>
+    </svg>
+
+    <svg y="65">
+      <text id="distText" x="-20" y="1" class="text-label -smaller statsText" />
+      <svg  >
+        <circle id="secondIconCirc" cx="3" cy="-9" r="15" fill="fb-black" />
+        <image id="distIcon" class="stats-icon" href="stat_dist_solid_24px.png" width="18" height="18" />
+        <arc x="-12" y="-24" width="31" height="31" fill="fb-yellow" 
+          arc-width="3" start-angle="-90" sweep-angle="360" />
+      </svg>
+    </svg>
+
+    <svg y="100">
+      <text id="calsText" x="-20" y="1" class="text-label -smaller statsText" />/>
+      <svg  > 
+        <circle id="thirdIconCirc" cx="3" cy="-9" r="15" fill="fb-black" />
+        <image id="calsIcon" class="stats-icon" href="stat_cals_solid_24px.png" width="18" height="18" />
+        <arc x="-12" y="-24" width="31" height="31" fill="fb-green" 
+          arc-width="3" start-angle="-90" sweep-angle="360" />
+      </svg>
+    </svg>
+
+    <svg y="135">
+      <text id="minsText" x="-20" y="1" class="text-label -smaller statsText" />/>
+      <svg > 
+        <circle id="fourthIconCirc" cx="3" cy="-9" r="15" fill="fb-black" />
+        <image id="calsIcon" class="stats-icon" href="stat_am_solid_24px.png" width="18" height="18" />
+        <arc x="-12" y="-24" width="31" height="31" fill="fb-blue" 
+          arc-width="3" start-angle="-90" sweep-angle="360" />
+      </svg>
+    </svg>
+
+    <svg y="170">
+      <text id="stairsText" x="-20" y="1" class="text-label -smaller statsText" />/>
+      <svg> 
+        <circle id="fourthIconCirc" cx="3" cy="-9" r="15" fill="fb-black" />
+        <image id="calsIcon" class="stats-icon" href="stat_floors_solid_24px.png" width="18" height="18" />
+        <arc x="-12" y="-24" width="31" height="31" fill="fb-purple" 
+          arc-width="3" start-angle="-90" sweep-angle="360" />
+      </svg>
+    </svg>
+  
+  </svg>
+
+  <svg x="0" y="50%+7">
+    <arc id="firstCirc" x="2" y="0" width="300-2" height="280" fill="fb-magenta"
+      arc-width="30" start-angle="-80" sweep-angle="170" />   
+    <arc id="secondCirc" x="35" y="32" width="232" height="216" fill="fb-yellow"
+      arc-width="30" start-angle="-80" sweep-angle="170" />
+    <arc id="thirdCirc" x="68" y="64" width="166" height="152" fill="fb-blue"
+      arc-width="30" start-angle="-78" sweep-angle="168" />
+  </svg>
+  
+
+  <svg x="14" y="100%-8"> 
+    <circle id="firstIconCirc" cx="6" cy="-6" r="16" fill="fb-black" />
+    <image id="stepsIcon" class="stats-icon" href="stat_steps_solid_24px.png" width="18" height="18" />
+    <arc x="-12" y="-24" width="31" height="31" fill="fb-magenta" 
+      arc-width="3" start-angle="-90" sweep-angle="360" />
+    <arc x="-15" y="-27" width="37" height="37" fill="fb-black" 
+      arc-width="3" start-angle="-55" sweep-angle="140"/>
+  </svg>
+
+  <svg x="48" y="100%-8"> 
+    <circle id="secondIconCirc" cx="3" cy="-9" r="15" fill="fb-black" />
+    <image id="distIcon" class="stats-icon" href="stat_dist_solid_24px.png" width="18" height="18" />
+    <arc x="-12" y="-24" width="31" height="31" fill="fb-yellow" 
+      arc-width="3" start-angle="-90" sweep-angle="360" />
+    <arc x="-15" y="-27" width="38" height="37" fill="fb-black" 
+      arc-width="3" start-angle="-65" sweep-angle="140"/>
+  </svg>
+  
+  <svg x="82" y="100%-8"> 
+    <circle id="thirdIconCirc" cx="3" cy="-9" r="15" fill="fb-black" />
+    <image id="calsIcon" class="stats-icon" href="stat_am_solid_24px.png" width="18" height="18" />
+    <arc x="-12" y="-24" width="31" height="31" fill="fb-blue" 
+      arc-width="3" start-angle="-90" sweep-angle="360" />
+    <arc x="-15" y="-27" width="37" height="37" fill="fb-black" 
+      arc-width="3" start-angle="-55" sweep-angle="150"/>
+  </svg>
+  
+</svg>
